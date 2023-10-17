@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: The program prints the alphabet in lowercase
+ * 
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main (void)
+{	
+	char letter = 'a';
+
+	while (letter <='z')
+{
+	purchar(letter)
+	letter++;
+}
+
+	putchar('\n');
+
+	return (0);
+
+}
