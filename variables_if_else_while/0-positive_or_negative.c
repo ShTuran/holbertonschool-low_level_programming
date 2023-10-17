@@ -1,6 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
 /* betty style doc for function main goes there */
 int main(void)
@@ -11,20 +11,20 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 
-	if n<0:
+	if (n<0):
 {
-	printf("is negative")	
+	printf("is negative");	
 
 }
 
-	else if (n=0):
+	else if (n==0):
 {
-	printf("is zero")
+	printf("is zero");
 }
 
 	else:
 {
-	printf("is positive")
+	printf("is positive");
 }
 	return (0);
 }
