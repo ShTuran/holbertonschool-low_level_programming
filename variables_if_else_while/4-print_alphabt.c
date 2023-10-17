@@ -3,30 +3,26 @@
 /**
  * main - Entry point
  *
- * Description: This program prints the alphabet in lowercase  except q and e
+ * Description: This program prints the alphabet in lowercase except for 'q' and 'e'.
  *
  * Return: Always 0 (Success)
  */
-
-
 int main(void)
 {
-	char letter = 'a';
+    char letter = 'a';
 
-	while(letter <= 'z')
-	{
-		if (letter != 'q' && letter !='e')
-		{
-			putchar(letter);
+    while (letter <= 'z')
+    {
+        if (letter != 'q' && letter != 'e')
+        {
+            putchar(letter);
+        }
 
-		}
+        letter++;
+    }
 
-		letter++;
+    putchar('\n');
 
-
-	}
-
-	putchar('\n');
-
-	return (0);
+    return (0);
 }
+
