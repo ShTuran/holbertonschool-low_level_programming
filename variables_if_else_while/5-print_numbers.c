@@ -16,7 +16,7 @@ int main (void)
 	while (digit<10)
 	{
 
-		puthcar('0'+digit);
+		putchar('0'+digit);
 		digit++;
 
 	}
