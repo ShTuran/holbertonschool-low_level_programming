@@ -2,29 +2,38 @@
 #include <stdio.h>
 #include <time.h>
 
-/* betty style doc for function main goes there */
-int main(void)
-{
-	int n;
+/* 
+ * main- Entry point
+ *
+ * Description - This is the main function that generates a random number
+ * and determines if it's negative, zero, or positive, then prints the result
+ *
+ * Return: Always 0 (Success)
+ */
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+ int main(void)
+ {
+     int n;
+
+     srand(time(0));
+     n = rand() - RAND_MAX / 2;
 
 
-	if (n<0)
-{
-	printf("%d is negative\n",n);	
+     if (n<0)
+     {
+         printf("%d is negative\n",n);	
 
-}
+     }
 
-	else if (n==0)
-{
+     else if (n==0)
+     {
 	printf("%d is zero\n",n );
-}
+     }
 
-	else
-{
-	printf("%d is positive\n",n);
-}
+      else
+     {
+        printf("%d is positive\n",n);
+     } 
+
 	return (0);
-}
+  }
