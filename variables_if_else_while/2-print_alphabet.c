@@ -14,7 +14,7 @@ int main (void)
 
 	while (letter <='z')
 {
-	purchar(letter)
+	purchar(letter);
 	letter++;
 }
 
