@@ -13,7 +13,7 @@ int main(void)
 	int digit = 0;
 
 
-	while (digit <= 0xf)
+	while (digit <= 0x9)
 	{
 
 		putchar(digit);
@@ -21,6 +21,20 @@ int main(void)
 
 
 	}
+
+
+
+	digit = 0xa;
+
+	while (digit <= 0xf)
+	{
+
+		putchar(digit + 'a' - 10 );
+		digit++;
+
+	}
+
+
 
 	putchar('n');
 
