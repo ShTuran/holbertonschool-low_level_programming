@@ -16,7 +16,7 @@ int main(void)
 	while (digit <= 0xf)
 	{
 
-		putchar(digit;)
+		putchar(digit);
 		digit++;
 
 
