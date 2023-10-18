@@ -4,13 +4,13 @@ int main(void)
 {
 	int digit=0;
 
-	while()
+	while(digit<10)
 	{
 		putchar(digit);
 		digit++;
 	}
-	putchar('\n')
+	putchar('\n');
 
-
+	return (0);
 
 }
