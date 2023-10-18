@@ -16,9 +16,8 @@ int main(void)
 	while (digit <= 0x9)
 	{
 
-		putchar(digit);
+		putchar(digit + '0');
 		digit++;
-
 
 	}
 
