@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: This is the main function that generates a random number
+ * Description: This program generates a random number
  * and determines if its last digit is greater than 5, 0, or less than 6 but not 0,
  * then prints the result.
  *
