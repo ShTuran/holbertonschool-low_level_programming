@@ -12,21 +12,20 @@ int main(void)
 	int digit = 0;
 
 	while (digit <= 0x9)
-    	{
-        	putchar(digit + '0');
-        	digit++;
-    	}
+	{
+		putchar(digit + '0');
+		digit++;
+	}
 
-    	digit = 0xa;
+	digit = 0xa;
 
-    	while (digit <= 0xf)
-    	{
-        	putchar(digit + 'a' - 10);
-        	digit++;
-    	}
+	while (digit <= 0xf)
+	{
+		putchar(digit + 'a' - 10);
+		digit++;
+	}
 
-    	putchar('\n');
+	putchar('\n');
 
-    	return (0);
+	return (0);
 }
-
