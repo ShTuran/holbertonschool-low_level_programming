@@ -5,9 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: This program generates a random number
- * and determines if its last digit is greater than 5, 0, or less than 6 but not 0,
- * then prints the result.
+ * Description: Generates a random number and checks its last digit.
  *
  * Return: Always 0 (Success)
  */
