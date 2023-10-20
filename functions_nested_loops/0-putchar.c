@@ -8,11 +8,15 @@
  *
  * Return: Always 0 (Success)
  */
-
-int main()
+int main(void)
 {
-	putchar("_putchar\n");
+    const char *text = "_putchar\n";
 
-	return (0);
+    for (int i = 0; text[i] != '\0'; i++)
+    {
+        putchar(text[i]);
+    }
 
+    return 0;
 }
+
