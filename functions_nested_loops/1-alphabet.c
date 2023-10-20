@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#define _XOPEN_SOURCE 700
 
 /**
  * main - Entry point
@@ -9,6 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 
 
 void print_alphabet(void)
