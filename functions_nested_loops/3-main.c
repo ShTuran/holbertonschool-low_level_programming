@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/* Function prototypes */
-int _islower(int c);
-int _putchar(char c);
-
-
 
 /**
  * main - check the code.
