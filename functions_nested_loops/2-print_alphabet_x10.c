@@ -23,7 +23,7 @@ void print_alphabet_x10(void)
 
 		a++;
 		letter = 'a';
-		putchar (\n);
+		putchar ('\n');
 	}
 
 	putchar ('\n');
