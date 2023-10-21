@@ -8,7 +8,7 @@
 
 void print_alphabet_x10(void)
 {
-	int a=0;
+	int a = 0;
 
 
 	while (a < 10)
@@ -27,7 +27,7 @@ void print_alphabet_x10(void)
 		a++;
 
 
-		if (a<10)
+		if (a < 10)
 			putchar('\n');
 	}
 
