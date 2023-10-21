@@ -18,12 +18,12 @@ void print_alphabet_x10(void)
 
 			putchar (letter);
 			letter++;
-			putchar ('\n');
 
 		}
 
 		a++;
 		letter = 'a';
+		putchar (\n);
 	}
 
 	putchar ('\n');
