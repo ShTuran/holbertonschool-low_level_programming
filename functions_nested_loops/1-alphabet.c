@@ -3,18 +3,10 @@
 
 
 /**
- * main - Entry point
- *
- * Description:  print_alphabet - Prints the lowercase alphabet followed by a newline.
- *
- *
- * Return: Always 0 (Success)
- */
 
+*	print_alphabet - Prints the lowercase alphabet followed by a newline.
 
-/**
- * print_alphabet - Prints the lowercase alphabet followed by a newline.
- */
+*/
 
 
 void print_alphabet(void)
