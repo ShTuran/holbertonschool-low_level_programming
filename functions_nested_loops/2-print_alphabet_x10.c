@@ -26,5 +26,10 @@ void print_alphabet_x10(void)
 		putchar ('\n');
 	}
 
+	while (letter <= 'z')
+    	{
+        	putchar(letter);
+        	letter++;
+    	}
 
 }
