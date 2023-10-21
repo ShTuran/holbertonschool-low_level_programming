@@ -23,13 +23,12 @@ void print_alphabet_x10(void)
 
 		a++;
 		letter = 'a';
-		putchar ('\n');
+
+
+		if (a<10)
+			putchar('\n');
 	}
 
-	while (letter <= 'z')
-    	{
-        	putchar(letter);
-        	letter++;
-    	}
+
 
 }
