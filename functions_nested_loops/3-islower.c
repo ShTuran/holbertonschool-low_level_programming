@@ -3,7 +3,7 @@
 #include "main.h"
 
 
-int islower(int c)
+int _islower(int c)
 {
 
 
