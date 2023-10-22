@@ -3,6 +3,7 @@
 
 
 int _isalpha(int c);
+int _putchar(char c);
 
 #endif
 
